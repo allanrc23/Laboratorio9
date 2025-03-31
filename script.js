@@ -42,7 +42,7 @@ while (continuar) {
             continue;
     }
 
-    alert('El resultado de la operción es:' + resultado);
+    alert('El resultado de la operción es: ' + resultado);
     respuesta = prompt('¿Desea realiazar otra operación? Si/No:').toLowerCase();
 
     if (respuesta!== 'si') {
